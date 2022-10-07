@@ -6,7 +6,7 @@ Given a subset of UTKFace dataset containing 5000 images. The dataset consists o
 My goal was to build and train deep learning models to classify gender and age from the given dataset. The first model was supposed to be own model while the second model was an existing pre-trained CNN architecture on ImageNet and fine tune it as per the dataset.
 At the end, I have plot the graph to compare the performance of both the models.
 
-Dataset: https://drive.google.com/drive/folders/1UjYRDyo10Fx-Rv91CQl5ZfwF85HiLUX8?usp=sharing
+Dataset: https://susanqq.github.io/UTKFace/
 
 # Custom CNN
 # Architecture

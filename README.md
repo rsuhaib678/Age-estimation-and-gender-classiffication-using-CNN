@@ -36,4 +36,4 @@ The model was trained for a batch size of 64 and number of epochs as 50. The tra
 
 ### Performance
 
-The performance of CNN was somewhat near to what we expected. The goal was to reduce the age output mae below 7 and increase the goal output accuracy above 80%. Our final loss value for weight function of [“Age”:0.1, “Gender”: 1] was 5.6032, age output mae = 4.3738, gender output accuracy of 95.56%, validation loss = 10.8850, validation age mae = 6.9310, validation gender accuracy = 86%.
+The performances of CNN was somewhat near to what we expected. The goal was to reduce the age output mae below 7 and increase the goal output accuracy above 80%. Our final loss value for weight function of [“Age”:0.1, “Gender”: 1] was 5.6032, age output mae = 4.3738, gender output accuracy of 95.56%, validation loss = 10.8850, validation age mae = 6.9310, validation gender accuracy = 86%.

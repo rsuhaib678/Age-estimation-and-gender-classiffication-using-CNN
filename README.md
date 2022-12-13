@@ -2,7 +2,7 @@
  
 ### Introduction
 
-Given subset of UTKFace dataset containing 5000 images. The dataset consists of over 20,000 face images with annotations of age, gender, and ethnicity. The images cover large variation in pose, facial expression, illumination, occlusion, resolution, etc. The labels of each image are embedded in the file name, formatted as [age] [gender] [race] [date&time].jpg. We were supposed to use only first two labels, i.e, age(integer from 0 to 116), gender(0 for male and 1 for female). I have to perform some data pre-processing and data augmentation on the dataset like rescaling the pixels.
+Given a subset of UTKFace dataset containing 5000 images. The dataset consists of over 20,000 face images with annotations of age, gender, and ethnicity. The images cover large variation in pose, facial expression, illumination, occlusion, resolution, etc. The labels of each image are embedded in the file name, formatted as [age] [gender] [race] [date&time].jpg. We were supposed to use only first two labels, i.e, age(integer from 0 to 116), gender(0 for male and 1 for female). I have to perform some data pre-processing and data augmentation on the dataset like rescaling the pixels.
 My goal was to build and train deep learning models to classify gender and age from the given dataset. The first model was supposed to be own model while the second model was an existing pre-trained CNN architecture on ImageNet and fine tune it as per the dataset.
 At the end, I have plot the graph to compare the performance of both the models.
 

@@ -19,7 +19,7 @@ The age branch starts with a Conv2D layer followed by a max_pooling2D layer then
 
 ### Training
 
-The model was trained for a batch size of 64 and number of epochs as 50. The training steps per epoch are 62 and the validation steps per epoch are 15. The optimizer used is Adam, loss function used for age is mean squared error and for gender is binary cross entropy, loss weights for age and gender are 0.1 and 1 respectively, metrics used for checking for performance of model are mae and accuracy. We tried different hyperparameters for our model to optimize its performance like changing the loss weights values and optimizer. Initially, I used learning rate of 0.004 but discarded it later due to no changes in performance.
+The model was trained for a batch size of 64 and number of epochs as 50. The training steps per epoch are 62 and the validation steps per epoch are 15. The optimizer used is Adam, loss function used for age is mean squared error and for gender is binary cross entropy, loss weights for age and gender are 0.1 and 1 respectively, metrics used for checking for performance of model are mae and accuracy. We tried different hyperparameters for our model to optimize its performance like changing the loss weight values and optimizer. Initially, I used learning rate of 0.004 but discarded it later due to no changes in performance.
 
 ### Performance
 

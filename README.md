@@ -1,4 +1,4 @@
-## Age estimation and gender classification using CNN
+## Ageestimation and gender classification using CNN
  
 ### Introduction
 
